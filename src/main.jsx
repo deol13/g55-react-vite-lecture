@@ -6,6 +6,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
+// render(reactNode, domNode, callback?) is deprecated and will be removed so use createRoot as shown below.
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />

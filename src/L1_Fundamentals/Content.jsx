@@ -1,4 +1,5 @@
 import React from "react";
+import StudentTable from "./Practice/StudentTable";
 
 const Sidebar = () => {
   return (
@@ -27,6 +28,9 @@ const Content = () => {
       <div className="row">
         <Sidebar />
         <MainContent />
+      </div>
+      <div>
+        <StudentTable />
       </div>
     </main>
   );
