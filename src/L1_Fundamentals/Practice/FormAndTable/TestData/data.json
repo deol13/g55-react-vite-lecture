@@ -1,0 +1,6 @@
+[{ "id": 1, "name": "Alice", "subject": "Math", "grade": "A" },
+{ "id": 2, "name": "Bob", "subject": "Science", "grade": "B" },
+{ "id": 3, "name": "Charlie", "subject": "History", "grade": "A-" },
+{ "id": 4, "name": "Diana", "subject": "English", "grade": "B+" },
+{ "id": 5, "name": "Edward", "subject": "Math", "grade": "C" }]
+

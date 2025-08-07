@@ -1,5 +1,6 @@
 import React from "react";
-import StudentTable from "./Practice/StudentTable";
+import StudentTable, {StudentForm}  from "./Practice/StudentTable";
+import StudentTable2 from "./Practice/FormAndTable/StudentTable2";
 
 const Sidebar = () => {
   return (
@@ -31,6 +32,7 @@ const Content = () => {
       </div>
       <div>
         <StudentTable />
+        <StudentTable2 /> 
       </div>
     </main>
   );
