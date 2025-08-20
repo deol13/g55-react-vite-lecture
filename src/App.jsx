@@ -1,10 +1,21 @@
-// rcc
-// rsf
-//rafce
 import React from "react";
 import Navbar from "./L1_Fundamentals/Navbar";
 import Header from "./L1_Fundamentals/Header";
 import Content from "./L1_Fundamentals/Content";
+import StudentTable from "./L1_Fundamentals/Practice/StudentTable";
+import AlertMessage from "./L2_Fundamentals/AlertMessage";
+import {
+  FaCheckCircle,
+  FaExclamationTriangle,
+  FaShoppingCart,
+} from "react-icons/fa";
+import Pricing from "./L2_Fundamentals/Pricing";
+import Counter from "./L2_Fundamentals/Counter";
+import LikeButton from "./L2_Fundamentals/LikeButton";
+import PersonForm from "./L2_Fundamentals/PersonForm";
+import LifecycleDemo from "./L3_Hooks/LifecycleDemo";
+import FlightBooking from "./L3_Hooks/FlightBooking";
+import FlightBookingUseForm from "./L3_Hooks/FlightBookingUseForm";
 
 const App = () => {
   // define js variables
@@ -16,7 +27,7 @@ const App = () => {
       <Navbar />
       <Content />
       <StudentTable />
-      */}
+      
 
       <div className="container">
         <h2>state ex 1</h2>
@@ -45,6 +56,8 @@ const App = () => {
         <h2>props ex 2</h2>
         <Pricing />
       </div>
+      */}
+      <FlightBookingUseForm />
     </>
   );
 };
